@@ -33,9 +33,6 @@ stream$.subscribe(user => {
       <div class="card-action">
         <a href="${user.html_url}" target="_blank">Открыть github</a>
       </div>
-      <div class="">
-        <p></p>
-      </div>
     </div>
   `
   result.insertAdjacentHTML('beforeend', html)
